@@ -1,0 +1,152 @@
+body{
+	font: 15px Angsana new, arial, helvetica;
+	padding-top: 100px;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-bottom: 100px;
+	margin-top: 100px;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-bottom: 100px;
+	background-color: #FFFFFF;
+}
+/* Estilos globales */
+.contenedor{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+/* Encabezado*/
+header a{
+  color: ##000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px
+}
+
+header li{
+ float: left;
+ display: inline;
+ padding: 0 20px 0 20px;
+}
+
+header #marca{
+  /* float: left; */
+  text-align: center;
+
+}
+
+
+header #marca h1{
+  margin: 0;
+  }
+
+  header nav{
+    float:right;
+    margin-top:  10px;
+  }
+
+  header .resaltado, header .actual a{
+    color: #FF4000
+    font-weight: bold;
+  }
+  header a: hover{
+    color: #ccc;
+  }
+
+
+.cuerpo .contenido .twitter {
+float: right;
+width: 30%;
+height: 100%;
+margin-right:10px;
+margin-left: 10px;
+overflow-y: hidden;
+visibility: hidden;
+padding-left: 50
+px;
+}
+.cuerpo .contenido {
+float: left;
+width: 100%;
+}
+
+        p {
+          color: #524c56;
+          font-size: 160%;
+          line-height: 155%;
+          padding: 3%;
+          text-indent: 2%;
+          text-align: justify;
+          }
+   h2 {
+     font-size: 175%;
+     line-height: 155%;
+     font-weight: 500;
+     color: #000000;
+     text-align: center;
+     text-transform: uppercase;
+     padding: 0;
+      }
+
+      h1{text-align: center;}
+
+      li{
+        text-align: justify;
+        font-size: 175%;
+        line-height: 155%;
+        font-weight: 500;
+        }
+
+				img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin-bottom: -4px;
+}
+
+#wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+
+
+.cuerpo .contenido img {
+	width: 260px;
+	height: 260px;
+	float: right;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 0px;
+	padding-right: 10px;
+
+}
+.cuerpo .slider {
+	width: 100%;
+}
+.cuerpo .contenido {
+	width: 100%;
+	float: left;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.cuerpo .contenido h1 {
+	text-align: center;
+}
+.cuerpo .contenido p {
+	text-align: justify;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
