@@ -102,7 +102,7 @@ width: 100%;
         font-weight: 500;
         }
 
-				img {
+img {
   display: block;
   margin: 0 auto;
   max-width: 100%;
@@ -116,7 +116,10 @@ width: 100%;
   margin: 0 auto;
 }
 
-
+.slider img {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 
 
 .cuerpo .contenido img {
